@@ -1,0 +1,1742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Adjectives &amp; Animals</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="gen">Generate</string>
+    <string name="author">Jamel El-Merhaby</string>
+
+    <string-array name="animals">
+        <item>Abyssinian</item>
+        <item>Adelie Penguin</item>
+        <item>Affenpinscher</item>
+        <item>Afghan Hound</item>
+        <item>African Bush Elephant</item>
+        <item>African Civet</item>
+        <item>African Clawed Frog</item>
+        <item>African Forest Elephant</item>
+        <item>African Palm Civet</item>
+        <item>African Penguin</item>
+        <item>African Tree Toad</item>
+        <item>African Wild Dog</item>
+        <item>Ainu Dog</item>
+        <item>Airedale Terrier</item>
+        <item>Akbash</item>
+        <item>Akita</item>
+        <item>Alaskan Malamute</item>
+        <item>Albatross</item>
+        <item>Aldabra Giant Tortoise</item>
+        <item>Alligator</item>
+        <item>Alpine Dachsbracke</item>
+        <item>American Bulldog</item>
+        <item>American Cocker Spaniel</item>
+        <item>American Coonhound</item>
+        <item>American Eskimo Dog</item>
+        <item>American Foxhound</item>
+        <item>American Pit Bull Terrier</item>
+        <item>American Staffordshire Terrier</item>
+        <item>American Water Spaniel</item>
+        <item>Anatolian Shepherd Dog</item>
+        <item>Angelfish</item>
+        <item>Ant</item>
+        <item>Anteater</item>
+        <item>Antelope</item>
+        <item>Appenzeller Dog</item>
+        <item>Arctic Fox</item>
+        <item>Arctic Hare</item>
+        <item>Arctic Wolf</item>
+        <item>Armadillo</item>
+        <item>Asian Elephant</item>
+        <item>Asian Giant Hornet</item>
+        <item>Asian Palm Civet</item>
+        <item>Asiatic Black Bear</item>
+        <item>Australian Cattle Dog</item>
+        <item>Australian Kelpie Dog</item>
+        <item>Australian Mist</item>
+        <item>Australian Shepherd</item>
+        <item>Australian Terrier</item>
+        <item>Avocet</item>
+        <item>Axolotl</item>
+        <item>Aye Aye</item>
+        <item>Baboon</item>
+        <item>Bactrian Camel</item>
+        <item>Badger</item>
+        <item>Balinese</item>
+        <item>Banded Palm Civet</item>
+        <item>Bandicoot</item>
+        <item>Barb</item>
+        <item>Barn Owl</item>
+        <item>Barnacle</item>
+        <item>Barracuda</item>
+        <item>Basenji Dog</item>
+        <item>Basking Shark</item>
+        <item>Basset Hound</item>
+        <item>Bat</item>
+        <item>Bavarian Mountain Hound</item>
+        <item>Beagle</item>
+        <item>Bear</item>
+        <item>Bearded Collie</item>
+        <item>Bearded Dragon</item>
+        <item>Beaver</item>
+        <item>Bedlington Terrier</item>
+        <item>Beetle</item>
+        <item>Bengal Tiger</item>
+        <item>Bernese Mountain Dog</item>
+        <item>Bichon Frise</item>
+        <item>Binturong</item>
+        <item>Bird</item>
+        <item>Birds Of Paradise</item>
+        <item>Birman</item>
+        <item>Bison</item>
+        <item>Black Bear</item>
+        <item>Black Rhinoceros</item>
+        <item>Black Russian Terrier</item>
+        <item>Black Widow Spider</item>
+        <item>Bloodhound</item>
+        <item>Blue Lacy Dog</item>
+        <item>Blue Whale</item>
+        <item>Bluetick Coonhound</item>
+        <item>Bobcat</item>
+        <item>Bolognese Dog</item>
+        <item>Bombay</item>
+        <item>Bongo</item>
+        <item>Bonobo</item>
+        <item>Booby</item>
+        <item>Border Collie</item>
+        <item>Border Terrier</item>
+        <item>Bornean Orang-utan</item>
+        <item>Borneo Elephant</item>
+        <item>Boston Terrier</item>
+        <item>Bottle Nosed Dolphin</item>
+        <item>Boxer Dog</item>
+        <item>Boykin Spaniel</item>
+        <item>Brazilian Terrier</item>
+        <item>Brown Bear</item>
+        <item>Budgerigar</item>
+        <item>Buffalo</item>
+        <item>Bull Mastiff</item>
+        <item>Bull Shark</item>
+        <item>Bull Terrier</item>
+        <item>Bulldog</item>
+        <item>Bullfrog</item>
+        <item>Bumble Bee</item>
+        <item>Burmese</item>
+        <item>Burrowing Frog</item>
+        <item>Butterfly</item>
+        <item>Butterfly Fish</item>
+        <item>Caiman</item>
+        <item>Caiman Lizard</item>
+        <item>Cairn Terrier</item>
+        <item>Camel</item>
+        <item>Canaan Dog</item>
+        <item>Capybara</item>
+        <item>Caracal</item>
+        <item>Carolina Dog</item>
+        <item>Cassowary</item>
+        <item>Cat</item>
+        <item>Caterpillar</item>
+        <item>Catfish</item>
+        <item>Cavalier King Charles Spaniel</item>
+        <item>Centipede</item>
+        <item>Cesky Fousek</item>
+        <item>Chameleon</item>
+        <item>Chamois</item>
+        <item>Cheetah</item>
+        <item>Chesapeake Bay Retriever</item>
+        <item>Chicken</item>
+        <item>Chihuahua</item>
+        <item>Chimpanzee</item>
+        <item>Chinchilla</item>
+        <item>Chinese Crested Dog</item>
+        <item>Chinook</item>
+        <item>Chinstrap Penguin</item>
+        <item>Chipmunk</item>
+        <item>Chow Chow</item>
+        <item>Cichlid</item>
+        <item>Clouded Leopard</item>
+        <item>Clown Fish</item>
+        <item>Clumber Spaniel</item>
+        <item>Coati</item>
+        <item>Cockroach</item>
+        <item>Collared Peccary</item>
+        <item>Collie</item>
+        <item>Common Buzzard</item>
+        <item>Common Frog</item>
+        <item>Common Loon</item>
+        <item>Common Toad</item>
+        <item>Coral</item>
+        <item>Cottontop Tamarin</item>
+        <item>Cougar</item>
+        <item>Cow</item>
+        <item>Coyote</item>
+        <item>Crab</item>
+        <item>Crab-Eating Macaque</item>
+        <item>Crane</item>
+        <item>Crested Penguin</item>
+        <item>Crocodile</item>
+        <item>Cross River Gorilla</item>
+        <item>Curly Coated Retriever</item>
+        <item>Cuscus</item>
+        <item>Cuttlefish</item>
+        <item>Dachshund</item>
+        <item>Dalmatian</item>
+        <item>Darwin\'s Frog</item>
+        <item>Deer</item>
+        <item>Desert Tortoise</item>
+        <item>Deutsche Bracke</item>
+        <item>Dhole</item>
+        <item>Dingo</item>
+        <item>Discus</item>
+        <item>Doberman Pinscher</item>
+        <item>Dodo</item>
+        <item>Dog</item>
+        <item>Dogo Argentino</item>
+        <item>Dogue De Bordeaux</item>
+        <item>Dolphin</item>
+        <item>Donkey</item>
+        <item>Dormouse</item>
+        <item>Dragonfly</item>
+        <item>Drever</item>
+        <item>Duck</item>
+        <item>Dugong</item>
+        <item>Dunker</item>
+        <item>Dusky Dolphin</item>
+        <item>Dwarf Crocodile</item>
+        <item>Eagle</item>
+        <item>Earwig</item>
+        <item>Eastern Gorilla</item>
+        <item>Eastern Lowland Gorilla</item>
+        <item>Echidna</item>
+        <item>Edible Frog</item>
+        <item>Egyptian Mau</item>
+        <item>Electric Eel</item>
+        <item>Elephant</item>
+        <item>Elephant Seal</item>
+        <item>Elephant Shrew</item>
+        <item>Emperor Penguin</item>
+        <item>Emperor Tamarin</item>
+        <item>Emu</item>
+        <item>English Cocker Spaniel</item>
+        <item>English Shepherd</item>
+        <item>English Springer Spaniel</item>
+        <item>Entlebucher Mountain Dog</item>
+        <item>Epagneul Pont Audemer</item>
+        <item>Eskimo Dog</item>
+        <item>Estrela Mountain Dog</item>
+        <item>Falcon</item>
+        <item>Fennec Fox</item>
+        <item>Ferret</item>
+        <item>Field Spaniel</item>
+        <item>Fin Whale</item>
+        <item>Finnish Spitz</item>
+        <item>Fire-Bellied Toad</item>
+        <item>Fish</item>
+        <item>Fishing Cat</item>
+        <item>Flamingo</item>
+        <item>Flat Coat Retriever</item>
+        <item>Flounder</item>
+        <item>Fly</item>
+        <item>Flying Squirrel</item>
+        <item>Fossa</item>
+        <item>Fox</item>
+        <item>Fox Terrier</item>
+        <item>French Bulldog</item>
+        <item>Frigatebird</item>
+        <item>Frilled Lizard</item>
+        <item>Frog</item>
+        <item>Fur Seal</item>
+        <item>Galapagos Penguin</item>
+        <item>Galapagos Tortoise</item>
+        <item>Gar</item>
+        <item>Gecko</item>
+        <item>Gentoo Penguin</item>
+        <item>Geoffroys Tamarin</item>
+        <item>Gerbil</item>
+        <item>German Pinscher</item>
+        <item>German Shepherd</item>
+        <item>Gharial</item>
+        <item>Giant African Land Snail</item>
+        <item>Giant Clam</item>
+        <item>Giant Panda Bear</item>
+        <item>Giant Schnauzer</item>
+        <item>Gibbon</item>
+        <item>Gila Monster</item>
+        <item>Giraffe</item>
+        <item>Glass Lizard</item>
+        <item>Glow Worm</item>
+        <item>Goat</item>
+        <item>Golden Lion Tamarin</item>
+        <item>Golden Oriole</item>
+        <item>Golden Retriever</item>
+        <item>Goose</item>
+        <item>Gopher</item>
+        <item>Gorilla</item>
+        <item>Grasshopper</item>
+        <item>Great Dane</item>
+        <item>Great White Shark</item>
+        <item>Greater Swiss Mountain Dog</item>
+        <item>Green Bee-Eater</item>
+        <item>Greenland Dog</item>
+        <item>Grey Mouse Lemur</item>
+        <item>Grey Reef Shark</item>
+        <item>Grey Seal</item>
+        <item>Greyhound</item>
+        <item>Grizzly Bear</item>
+        <item>Grouse</item>
+        <item>Guinea Fowl</item>
+        <item>Guinea Pig</item>
+        <item>Guppy</item>
+        <item>Hammerhead Shark</item>
+        <item>Hamster</item>
+        <item>Hare</item>
+        <item>Harrier</item>
+        <item>Havanese</item>
+        <item>Hedgehog</item>
+        <item>Hercules Beetle</item>
+        <item>Hermit Crab</item>
+        <item>Heron</item>
+        <item>Highland Cattle</item>
+        <item>Himalayan</item>
+        <item>Hippopotamus</item>
+        <item>Honey Bee</item>
+        <item>Horn Shark</item>
+        <item>Horned Frog</item>
+        <item>Horse</item>
+        <item>Horseshoe Crab</item>
+        <item>Howler Monkey</item>
+        <item>Human</item>
+        <item>Humboldt Penguin</item>
+        <item>Hummingbird</item>
+        <item>Humpback Whale</item>
+        <item>Hyena</item>
+        <item>Ibis</item>
+        <item>Ibizan Hound</item>
+        <item>Iguana</item>
+        <item>Impala</item>
+        <item>Indian Elephant</item>
+        <item>Indian Palm Squirrel</item>
+        <item>Indian Rhinoceros</item>
+        <item>Indian Star Tortoise</item>
+        <item>Indochinese Tiger</item>
+        <item>Indri</item>
+        <item>Insect</item>
+        <item>Irish Setter</item>
+        <item>Irish WolfHound</item>
+        <item>Jack Russel</item>
+        <item>Jackal</item>
+        <item>Jaguar</item>
+        <item>Japanese Chin</item>
+        <item>Japanese Macaque</item>
+        <item>Javan Rhinoceros</item>
+        <item>Javanese</item>
+        <item>Jellyfish</item>
+        <item>Kakapo</item>
+        <item>Kangaroo</item>
+        <item>Keel Billed Toucan</item>
+        <item>Killer Whale</item>
+        <item>King Crab</item>
+        <item>King Penguin</item>
+        <item>Kingfisher</item>
+        <item>Kiwi</item>
+        <item>Koala</item>
+        <item>Komodo Dragon</item>
+        <item>Kudu</item>
+        <item>Labradoodle</item>
+        <item>Labrador Retriever</item>
+        <item>Ladybird</item>
+        <item>Leaf-Tailed Gecko</item>
+        <item>Lemming</item>
+        <item>Lemur</item>
+        <item>Leopard</item>
+        <item>Leopard Cat</item>
+        <item>Leopard Seal</item>
+        <item>Leopard Tortoise</item>
+        <item>Liger</item>
+        <item>Lion</item>
+        <item>Lionfish</item>
+        <item>Little Penguin</item>
+        <item>Lizard</item>
+        <item>Llama</item>
+        <item>Lobster</item>
+        <item>Long-Eared Owl</item>
+        <item>Lynx</item>
+        <item>Macaroni Penguin</item>
+        <item>Macaw</item>
+        <item>Magellanic Penguin</item>
+        <item>Magpie</item>
+        <item>Maine Coon</item>
+        <item>Malayan Civet</item>
+        <item>Malayan Tiger</item>
+        <item>Maltese</item>
+        <item>Manatee</item>
+        <item>Mandrill</item>
+        <item>Manta Ray</item>
+        <item>Marine Toad</item>
+        <item>Markhor</item>
+        <item>Marsh Frog</item>
+        <item>Masked Palm Civet</item>
+        <item>Mastiff</item>
+        <item>Mayfly</item>
+        <item>Meerkat</item>
+        <item>Millipede</item>
+        <item>Minke Whale</item>
+        <item>Mole</item>
+        <item>Molly</item>
+        <item>Mongoose</item>
+        <item>Mongrel</item>
+        <item>Monitor Lizard</item>
+        <item>Monkey</item>
+        <item>Monte Iberia Eleuth</item>
+        <item>Moorhen</item>
+        <item>Moose</item>
+        <item>Moray Eel</item>
+        <item>Moth</item>
+        <item>Mountain Gorilla</item>
+        <item>Mountain Lion</item>
+        <item>Mouse</item>
+        <item>Mule</item>
+        <item>Neanderthal</item>
+        <item>Neapolitan Mastiff</item>
+        <item>Newfoundland</item>
+        <item>Newt</item>
+        <item>Nightingale</item>
+        <item>Norfolk Terrier</item>
+        <item>Norwegian Forest</item>
+        <item>Numbat</item>
+        <item>Nurse Shark</item>
+        <item>Ocelot</item>
+        <item>Octopus</item>
+        <item>Okapi</item>
+        <item>Old English Sheepdog</item>
+        <item>Olm</item>
+        <item>Opossum</item>
+        <item>Orang-utan</item>
+        <item>Ostrich</item>
+        <item>Otter</item>
+        <item>Oyster</item>
+        <item>Pademelon</item>
+        <item>Panther</item>
+        <item>Parrot</item>
+        <item>Patas Monkey</item>
+        <item>Peacock</item>
+        <item>Pekingese</item>
+        <item>Pelican</item>
+        <item>Penguin</item>
+        <item>Persian</item>
+        <item>Pheasant</item>
+        <item>Pied Tamarin</item>
+        <item>Pig</item>
+        <item>Pika</item>
+        <item>Pike</item>
+        <item>Pink Fairy Armadillo</item>
+        <item>Piranha</item>
+        <item>Platypus</item>
+        <item>Pointer</item>
+        <item>Poison Dart Frog</item>
+        <item>Polar Bear</item>
+        <item>Pond Skater</item>
+        <item>Poodle</item>
+        <item>Pool Frog</item>
+        <item>Porcupine</item>
+        <item>Possum</item>
+        <item>Prawn</item>
+        <item>Proboscis Monkey</item>
+        <item>Puffer Fish</item>
+        <item>Puffin</item>
+        <item>Pug</item>
+        <item>Puma</item>
+        <item>Purple Emperor</item>
+        <item>Puss Moth</item>
+        <item>Pygmy Hippopotamus</item>
+        <item>Pygmy Marmoset</item>
+        <item>Quail</item>
+        <item>Quetzal</item>
+        <item>Quokka</item>
+        <item>Quoll</item>
+        <item>Rabbit</item>
+        <item>Raccoon</item>
+        <item>Raccoon Dog</item>
+        <item>Radiated Tortoise</item>
+        <item>Ragdoll</item>
+        <item>Rat</item>
+        <item>Rattlesnake</item>
+        <item>Red Knee Tarantula</item>
+        <item>Red Panda</item>
+        <item>Red Wolf</item>
+        <item>Red-handed Tamarin</item>
+        <item>Reindeer</item>
+        <item>Rhinoceros</item>
+        <item>River Dolphin</item>
+        <item>River Turtle</item>
+        <item>Robin</item>
+        <item>Rock Hyrax</item>
+        <item>Rockhopper Penguin</item>
+        <item>Roseate Spoonbill</item>
+        <item>Rottweiler</item>
+        <item>Royal Penguin</item>
+        <item>Russian Blue</item>
+        <item>Sabre-Toothed Tiger</item>
+        <item>Saint Bernard</item>
+        <item>Salamander</item>
+        <item>Sand Lizard</item>
+        <item>Saola</item>
+        <item>Scorpion</item>
+        <item>Scorpion Fish</item>
+        <item>Sea Dragon</item>
+        <item>Sea Lion</item>
+        <item>Sea Otter</item>
+        <item>Sea Slug</item>
+        <item>Sea Squirt</item>
+        <item>Sea Turtle</item>
+        <item>Sea Urchin</item>
+        <item>Seahorse</item>
+        <item>Seal</item>
+        <item>Serval</item>
+        <item>Sheep</item>
+        <item>Shih Tzu</item>
+        <item>Shrimp</item>
+        <item>Siamese</item>
+        <item>Siamese Fighting Fish</item>
+        <item>Siberian</item>
+        <item>Siberian Husky</item>
+        <item>Siberian Tiger</item>
+        <item>Silver Dollar</item>
+        <item>Skunk</item>
+        <item>Sloth</item>
+        <item>Slow Worm</item>
+        <item>Snail</item>
+        <item>Snake</item>
+        <item>Snapping Turtle</item>
+        <item>Snowshoe</item>
+        <item>Snowy Owl</item>
+        <item>Somali</item>
+        <item>South China Tiger</item>
+        <item>Spadefoot Toad</item>
+        <item>Sparrow</item>
+        <item>Spectacled Bear</item>
+        <item>Sperm Whale</item>
+        <item>Spider Monkey</item>
+        <item>Spiny Dogfish</item>
+        <item>Sponge</item>
+        <item>Squid</item>
+        <item>Squirrel</item>
+        <item>Squirrel Monkey</item>
+        <item>Sri Lankan Elephant</item>
+        <item>Staffordshire Bull Terrier</item>
+        <item>Stag Beetle</item>
+        <item>Starfish</item>
+        <item>Stellers Sea Cow</item>
+        <item>Stick Insect</item>
+        <item>Stingray</item>
+        <item>Stoat</item>
+        <item>Striped Rocket Frog</item>
+        <item>Sumatran Elephant</item>
+        <item>Sumatran Orang-utan</item>
+        <item>Sumatran Rhinoceros</item>
+        <item>Sumatran Tiger</item>
+        <item>Sun Bear</item>
+        <item>Swan</item>
+        <item>Tang</item>
+        <item>Tapir</item>
+        <item>Tarsier</item>
+        <item>Tasmanian Devil</item>
+        <item>Tawny Owl</item>
+        <item>Termite</item>
+        <item>Tetra</item>
+        <item>Thorny Devil</item>
+        <item>Tibetan Mastiff</item>
+        <item>Tiffany</item>
+        <item>Tiger</item>
+        <item>Tiger Salamander</item>
+        <item>Tiger Shark</item>
+        <item>Tortoise</item>
+        <item>Toucan</item>
+        <item>Tree Frog</item>
+        <item>Tropicbird</item>
+        <item>Tuatara</item>
+        <item>Turkey</item>
+        <item>Turkish Angora</item>
+        <item>Uakari</item>
+        <item>Uguisu</item>
+        <item>Umbrellabird</item>
+        <item>Vampire Bat</item>
+        <item>Vervet Monkey</item>
+        <item>Vulture</item>
+        <item>Wallaby</item>
+        <item>Walrus</item>
+        <item>Warthog</item>
+        <item>Wasp</item>
+        <item>Water Buffalo</item>
+        <item>Water Dragon</item>
+        <item>Water Vole</item>
+        <item>Weasel</item>
+        <item>Welsh Corgi</item>
+        <item>West Highland Terrier</item>
+        <item>Western Gorilla</item>
+        <item>Western Lowland Gorilla</item>
+        <item>Whale Shark</item>
+        <item>Whippet</item>
+        <item>White Faced Capuchin</item>
+        <item>White Rhinoceros</item>
+        <item>White Tiger</item>
+        <item>Wild Boar</item>
+        <item>Wildebeest</item>
+        <item>Wolf</item>
+        <item>Wolverine</item>
+        <item>Wombat</item>
+        <item>Woodlouse</item>
+        <item>Woodpecker</item>
+        <item>Woolly Mammoth</item>
+        <item>Woolly Monkey</item>
+        <item>Wrasse</item>
+        <item>X-Ray</item>
+        <item>Yak</item>
+        <item>Yellow-Eyed Penguin</item>
+        <item>Yorkshire Terrier</item>
+        <item>Zebra</item>
+        <item>Zebra Shark</item>
+        <item>Zebu</item>
+        <item>Zonkey</item>
+        <item>Zorse</item>
+    </string-array>
+
+    <string-array name="adjectives">
+        <item>aback</item>
+        <item>abaft</item>
+        <item>abandoned</item>
+        <item>abashed</item>
+        <item>aberrant</item>
+        <item>abhorrent</item>
+        <item>abiding</item>
+        <item>abject</item>
+        <item>ablaze</item>
+        <item>able</item>
+        <item>abnormal</item>
+        <item>aboard</item>
+        <item>aboriginal</item>
+        <item>abortive</item>
+        <item>abounding</item>
+        <item>abrasive</item>
+        <item>abrupt</item>
+        <item>absent</item>
+        <item>absorbed</item>
+        <item>absorbing</item>
+        <item>abstracted</item>
+        <item>absurd</item>
+        <item>abundant</item>
+        <item>abusive</item>
+        <item>acceptable</item>
+        <item>accessible</item>
+        <item>accidental</item>
+        <item>accurate</item>
+        <item>acid</item>
+        <item>acidic</item>
+        <item>acoustic</item>
+        <item>acrid</item>
+        <item>actually</item>
+        <item>ad hoc</item>
+        <item>adamant</item>
+        <item>adaptable</item>
+        <item>addicted</item>
+        <item>adhesive</item>
+        <item>adjoining</item>
+        <item>adorable</item>
+        <item>adventurous</item>
+        <item>afraid</item>
+        <item>aggressive</item>
+        <item>agonizing</item>
+        <item>agreeable</item>
+        <item>ahead</item>
+        <item>ajar</item>
+        <item>alcoholic</item>
+        <item>alert</item>
+        <item>alike</item>
+        <item>alive</item>
+        <item>alleged</item>
+        <item>alluring</item>
+        <item>aloof</item>
+        <item>amazing</item>
+        <item>ambiguous</item>
+        <item>ambitious</item>
+        <item>amuck</item>
+        <item>amused</item>
+        <item>amusing</item>
+        <item>ancient</item>
+        <item>angry</item>
+        <item>animated</item>
+        <item>annoyed</item>
+        <item>annoying</item>
+        <item>anxious</item>
+        <item>apathetic</item>
+        <item>aquatic</item>
+        <item>aromatic</item>
+        <item>arrogant</item>
+        <item>ashamed</item>
+        <item>aspiring</item>
+        <item>assorted</item>
+        <item>astonishing</item>
+        <item>attractive</item>
+        <item>auspicious</item>
+        <item>automatic</item>
+        <item>available</item>
+        <item>average</item>
+        <item>awake</item>
+        <item>aware</item>
+        <item>awesome</item>
+        <item>awful</item>
+        <item>axiomatic</item>
+        <item>bad</item>
+        <item>barbarous</item>
+        <item>bashful</item>
+        <item>bawdy</item>
+        <item>beautiful</item>
+        <item>befitting</item>
+        <item>belligerent</item>
+        <item>beneficial</item>
+        <item>bent</item>
+        <item>berserk</item>
+        <item>best</item>
+        <item>better</item>
+        <item>bewildered</item>
+        <item>big</item>
+        <item>billowy</item>
+        <item>bite-sized</item>
+        <item>bitter</item>
+        <item>bizarre</item>
+        <item>black</item>
+        <item>black-and-white</item>
+        <item>bloody</item>
+        <item>blue</item>
+        <item>blue-eyed</item>
+        <item>blushing</item>
+        <item>boiling</item>
+        <item>boorish</item>
+        <item>bored</item>
+        <item>boring</item>
+        <item>bouncy</item>
+        <item>boundless</item>
+        <item>brainy</item>
+        <item>brash</item>
+        <item>brave</item>
+        <item>brawny</item>
+        <item>breakable</item>
+        <item>breezy</item>
+        <item>brief</item>
+        <item>bright</item>
+        <item>bright</item>
+        <item>broad</item>
+        <item>broken</item>
+        <item>brown</item>
+        <item>bumpy</item>
+        <item>burly</item>
+        <item>bustling</item>
+        <item>busy</item>
+        <item>cagey</item>
+        <item>calculating</item>
+        <item>callous</item>
+        <item>calm</item>
+        <item>capable</item>
+        <item>capricious</item>
+        <item>careful</item>
+        <item>careless</item>
+        <item>caring</item>
+        <item>cautious</item>
+        <item>ceaseless</item>
+        <item>certain</item>
+        <item>changeable</item>
+        <item>charming</item>
+        <item>cheap</item>
+        <item>cheerful</item>
+        <item>chemical</item>
+        <item>chief</item>
+        <item>childlike</item>
+        <item>chilly</item>
+        <item>chivalrous</item>
+        <item>chubby</item>
+        <item>chunky</item>
+        <item>clammy</item>
+        <item>classy</item>
+        <item>clean</item>
+        <item>clear</item>
+        <item>clever</item>
+        <item>cloistered</item>
+        <item>cloudy</item>
+        <item>closed</item>
+        <item>clumsy</item>
+        <item>cluttered</item>
+        <item>coherent</item>
+        <item>cold</item>
+        <item>colorful</item>
+        <item>colossal</item>
+        <item>combative</item>
+        <item>comfortable</item>
+        <item>common</item>
+        <item>complete</item>
+        <item>complex</item>
+        <item>concerned</item>
+        <item>condemned</item>
+        <item>confused</item>
+        <item>conscious</item>
+        <item>cooing</item>
+        <item>cool</item>
+        <item>cooperative</item>
+        <item>coordinated</item>
+        <item>courageous</item>
+        <item>cowardly</item>
+        <item>crabby</item>
+        <item>craven</item>
+        <item>crazy</item>
+        <item>creepy</item>
+        <item>crooked</item>
+        <item>crowded</item>
+        <item>cruel</item>
+        <item>cuddly</item>
+        <item>cultured</item>
+        <item>cumbersome</item>
+        <item>curious</item>
+        <item>curly</item>
+        <item>curved</item>
+        <item>curvy</item>
+        <item>cut</item>
+        <item>cute</item>
+        <item>cute</item>
+        <item>cynical</item>
+        <item>daffy</item>
+        <item>daily</item>
+        <item>damaged</item>
+        <item>damaging</item>
+        <item>damp</item>
+        <item>dangerous</item>
+        <item>dapper</item>
+        <item>dark</item>
+        <item>dashing</item>
+        <item>dazzling</item>
+        <item>dead</item>
+        <item>deadpan</item>
+        <item>deafening</item>
+        <item>dear</item>
+        <item>debonair</item>
+        <item>decisive</item>
+        <item>decorous</item>
+        <item>deep</item>
+        <item>deeply</item>
+        <item>defeated</item>
+        <item>defective</item>
+        <item>defiant</item>
+        <item>delicate</item>
+        <item>delicious</item>
+        <item>delightful</item>
+        <item>demonic</item>
+        <item>delirious</item>
+        <item>dependent</item>
+        <item>depressed</item>
+        <item>deranged</item>
+        <item>descriptive</item>
+        <item>deserted</item>
+        <item>detailed</item>
+        <item>determined</item>
+        <item>devilish</item>
+        <item>didactic</item>
+        <item>different</item>
+        <item>difficult</item>
+        <item>diligent</item>
+        <item>direful</item>
+        <item>dirty</item>
+        <item>disagreeable</item>
+        <item>disastrous</item>
+        <item>discreet</item>
+        <item>disgusted</item>
+        <item>disgusting</item>
+        <item>disillusioned</item>
+        <item>dispensable</item>
+        <item>distinct</item>
+        <item>disturbed</item>
+        <item>divergent</item>
+        <item>dizzy</item>
+        <item>domineering</item>
+        <item>doubtful</item>
+        <item>drab</item>
+        <item>draconian</item>
+        <item>dramatic</item>
+        <item>dreary</item>
+        <item>drunk</item>
+        <item>dry</item>
+        <item>dull</item>
+        <item>dusty</item>
+        <item>dusty</item>
+        <item>dynamic</item>
+        <item>dysfunctional</item>
+        <item>eager</item>
+        <item>early</item>
+        <item>earsplitting</item>
+        <item>earthy</item>
+        <item>easy</item>
+        <item>eatable</item>
+        <item>economic</item>
+        <item>educated</item>
+        <item>efficacious</item>
+        <item>efficient</item>
+        <item>eight</item>
+        <item>elastic</item>
+        <item>elated</item>
+        <item>elderly</item>
+        <item>electric</item>
+        <item>elegant</item>
+        <item>elfin</item>
+        <item>elite</item>
+        <item>embarrassed</item>
+        <item>eminent</item>
+        <item>empty</item>
+        <item>enchanted</item>
+        <item>enchanting</item>
+        <item>encouraging</item>
+        <item>endurable</item>
+        <item>energetic</item>
+        <item>enormous</item>
+        <item>entertaining</item>
+        <item>enthusiastic</item>
+        <item>envious</item>
+        <item>equable</item>
+        <item>equal</item>
+        <item>erect</item>
+        <item>erratic</item>
+        <item>ethereal</item>
+        <item>evanescent</item>
+        <item>evasive</item>
+        <item>even</item>
+        <item>excellent</item>
+        <item>excited</item>
+        <item>exciting</item>
+        <item>exclusive</item>
+        <item>exotic</item>
+        <item>expensive</item>
+        <item>extra-large</item>
+        <item>extra-small</item>
+        <item>exuberant</item>
+        <item>exultant</item>
+        <item>fabulous</item>
+        <item>faded</item>
+        <item>faint</item>
+        <item>fair</item>
+        <item>faithful</item>
+        <item>fallacious</item>
+        <item>false</item>
+        <item>familiar</item>
+        <item>famous</item>
+        <item>fanatical</item>
+        <item>fancy</item>
+        <item>fantastic</item>
+        <item>far</item>
+        <item>far-flung</item>
+        <item>fascinated</item>
+        <item>fast</item>
+        <item>fat</item>
+        <item>faulty</item>
+        <item>fearful</item>
+        <item>fearless</item>
+        <item>feeble</item>
+        <item>feigned</item>
+        <item>female</item>
+        <item>fertile</item>
+        <item>festive</item>
+        <item>few</item>
+        <item>fierce</item>
+        <item>filthy</item>
+        <item>fine</item>
+        <item>finicky</item>
+        <item>first</item>
+        <item>five</item>
+        <item>fixed</item>
+        <item>flagrant</item>
+        <item>flaky</item>
+        <item>flashy</item>
+        <item>flat</item>
+        <item>flawless</item>
+        <item>flimsy</item>
+        <item>flippant</item>
+        <item>flowery</item>
+        <item>fluffy</item>
+        <item>fluttering</item>
+        <item>foamy</item>
+        <item>foolish</item>
+        <item>foregoing</item>
+        <item>forgetful</item>
+        <item>fortunate</item>
+        <item>four</item>
+        <item>frail</item>
+        <item>fragile</item>
+        <item>frantic</item>
+        <item>free</item>
+        <item>freezing</item>
+        <item>frequent</item>
+        <item>fresh</item>
+        <item>fretful</item>
+        <item>friendly</item>
+        <item>frightened</item>
+        <item>frightening</item>
+        <item>full</item>
+        <item>fumbling</item>
+        <item>functional</item>
+        <item>funny</item>
+        <item>furry</item>
+        <item>furtive</item>
+        <item>future</item>
+        <item>futuristic</item>
+        <item>fuzzy</item>
+        <item>gabby</item>
+        <item>gainful</item>
+        <item>gamy</item>
+        <item>gaping</item>
+        <item>garrulous</item>
+        <item>gaudy</item>
+        <item>general</item>
+        <item>gentle</item>
+        <item>giant</item>
+        <item>giddy</item>
+        <item>gifted</item>
+        <item>gigantic</item>
+        <item>glamorous</item>
+        <item>gleaming</item>
+        <item>glib</item>
+        <item>glistening</item>
+        <item>glorious</item>
+        <item>glossy</item>
+        <item>godly</item>
+        <item>good</item>
+        <item>goofy</item>
+        <item>gorgeous</item>
+        <item>graceful</item>
+        <item>grandiose</item>
+        <item>grateful</item>
+        <item>gratis</item>
+        <item>gray</item>
+        <item>greasy</item>
+        <item>great</item>
+        <item>greedy</item>
+        <item>green</item>
+        <item>grey</item>
+        <item>grieving</item>
+        <item>groovy</item>
+        <item>grotesque</item>
+        <item>grouchy</item>
+        <item>grubby</item>
+        <item>gruesome</item>
+        <item>grumpy</item>
+        <item>guarded</item>
+        <item>guiltless</item>
+        <item>gullible</item>
+        <item>gusty</item>
+        <item>guttural</item>
+        <item>habitual</item>
+        <item>half</item>
+        <item>hallowed</item>
+        <item>halting</item>
+        <item>handsome</item>
+        <item>handsomely</item>
+        <item>handy</item>
+        <item>hanging</item>
+        <item>hapless</item>
+        <item>happy</item>
+        <item>hard</item>
+        <item>hard-to-find</item>
+        <item>harmonious</item>
+        <item>harsh</item>
+        <item>hateful</item>
+        <item>heady</item>
+        <item>healthy</item>
+        <item>heartbreaking</item>
+        <item>heavenly</item>
+        <item>heavy</item>
+        <item>hellish</item>
+        <item>helpful</item>
+        <item>helpless</item>
+        <item>hesitant</item>
+        <item>hideous</item>
+        <item>high</item>
+        <item>highfalutin</item>
+        <item>high-pitched</item>
+        <item>hilarious</item>
+        <item>hissing</item>
+        <item>historical</item>
+        <item>holistic</item>
+        <item>hollow</item>
+        <item>homeless</item>
+        <item>homely</item>
+        <item>honorable</item>
+        <item>horrible</item>
+        <item>hospitable</item>
+        <item>hot</item>
+        <item>huge</item>
+        <item>hulking</item>
+        <item>humdrum</item>
+        <item>humorous</item>
+        <item>hungry</item>
+        <item>hurried</item>
+        <item>hurt</item>
+        <item>hushed</item>
+        <item>husky</item>
+        <item>hypnotic</item>
+        <item>hysterical</item>
+        <item>icky</item>
+        <item>icy</item>
+        <item>idiotic</item>
+        <item>ignorant</item>
+        <item>ill</item>
+        <item>illegal</item>
+        <item>ill-fated</item>
+        <item>ill-informed</item>
+        <item>illustrious</item>
+        <item>imaginary</item>
+        <item>immense</item>
+        <item>imminent</item>
+        <item>impartial</item>
+        <item>imperfect</item>
+        <item>impolite</item>
+        <item>important</item>
+        <item>imported</item>
+        <item>impossible</item>
+        <item>incandescent</item>
+        <item>incompetent</item>
+        <item>inconclusive</item>
+        <item>industrious</item>
+        <item>incredible</item>
+        <item>inexpensive</item>
+        <item>infamous</item>
+        <item>innate</item>
+        <item>innocent</item>
+        <item>inquisitive</item>
+        <item>insidious</item>
+        <item>instinctive</item>
+        <item>intelligent</item>
+        <item>interesting</item>
+        <item>internal</item>
+        <item>invincible</item>
+        <item>irate</item>
+        <item>irritating</item>
+        <item>itchy</item>
+        <item>jaded</item>
+        <item>jagged</item>
+        <item>jazzy</item>
+        <item>jealous</item>
+        <item>jittery</item>
+        <item>jobless</item>
+        <item>jolly</item>
+        <item>joyous</item>
+        <item>judicious</item>
+        <item>juicy</item>
+        <item>jumbled</item>
+        <item>jumpy</item>
+        <item>juvenile</item>
+        <item>kaput</item>
+        <item>keen</item>
+        <item>kind</item>
+        <item>kindhearted</item>
+        <item>kindly</item>
+        <item>knotty</item>
+        <item>knowing</item>
+        <item>knowledgeable</item>
+        <item>known</item>
+        <item>labored</item>
+        <item>lackadaisical</item>
+        <item>lacking</item>
+        <item>lame</item>
+        <item>lamentable</item>
+        <item>languid</item>
+        <item>large</item>
+        <item>last</item>
+        <item>late</item>
+        <item>laughable</item>
+        <item>lavish</item>
+        <item>lazy</item>
+        <item>lean</item>
+        <item>learned</item>
+        <item>left</item>
+        <item>legal</item>
+        <item>lethal</item>
+        <item>level</item>
+        <item>lewd</item>
+        <item>light</item>
+        <item>like</item>
+        <item>likeable</item>
+        <item>limping</item>
+        <item>literate</item>
+        <item>little</item>
+        <item>lively</item>
+        <item>lively</item>
+        <item>living</item>
+        <item>lonely</item>
+        <item>long</item>
+        <item>longing</item>
+        <item>long-term</item>
+        <item>loose</item>
+        <item>lopsided</item>
+        <item>loud</item>
+        <item>loutish</item>
+        <item>lovely</item>
+        <item>loving</item>
+        <item>low</item>
+        <item>lowly</item>
+        <item>lucky</item>
+        <item>ludicrous</item>
+        <item>lumpy</item>
+        <item>lush</item>
+        <item>luxuriant</item>
+        <item>lying</item>
+        <item>lyrical</item>
+        <item>macabre</item>
+        <item>macho</item>
+        <item>maddening</item>
+        <item>madly</item>
+        <item>magenta</item>
+        <item>magical</item>
+        <item>magnificent</item>
+        <item>majestic</item>
+        <item>makeshift</item>
+        <item>male</item>
+        <item>malicious</item>
+        <item>mammoth</item>
+        <item>maniacal</item>
+        <item>many</item>
+        <item>marked</item>
+        <item>massive</item>
+        <item>married</item>
+        <item>marvelous</item>
+        <item>material</item>
+        <item>materialistic</item>
+        <item>mature</item>
+        <item>mean</item>
+        <item>measly</item>
+        <item>meaty</item>
+        <item>medical</item>
+        <item>meek</item>
+        <item>mellow</item>
+        <item>melodic</item>
+        <item>melted</item>
+        <item>merciful</item>
+        <item>mere</item>
+        <item>messy</item>
+        <item>mighty</item>
+        <item>military</item>
+        <item>milky</item>
+        <item>mindless</item>
+        <item>miniature</item>
+        <item>minor</item>
+        <item>miscreant</item>
+        <item>misty</item>
+        <item>mixed</item>
+        <item>moaning</item>
+        <item>modern</item>
+        <item>moldy</item>
+        <item>momentous</item>
+        <item>motionless</item>
+        <item>mountainous</item>
+        <item>muddled</item>
+        <item>mundane</item>
+        <item>murky</item>
+        <item>mushy</item>
+        <item>mute</item>
+        <item>mysterious</item>
+        <item>naive</item>
+        <item>nappy</item>
+        <item>narrow</item>
+        <item>nasty</item>
+        <item>natural</item>
+        <item>naughty</item>
+        <item>nauseating</item>
+        <item>near</item>
+        <item>neat</item>
+        <item>nebulous</item>
+        <item>necessary</item>
+        <item>needless</item>
+        <item>needy</item>
+        <item>neighborly</item>
+        <item>nervous</item>
+        <item>new</item>
+        <item>next</item>
+        <item>nice</item>
+        <item>nifty</item>
+        <item>nimble</item>
+        <item>nine</item>
+        <item>nippy</item>
+        <item>noiseless</item>
+        <item>noisy</item>
+        <item>nonchalant</item>
+        <item>nondescript</item>
+        <item>nonstop</item>
+        <item>normal</item>
+        <item>nostalgic</item>
+        <item>nosy</item>
+        <item>noxious</item>
+        <item>null</item>
+        <item>numberless</item>
+        <item>numerous</item>
+        <item>nutritious</item>
+        <item>nutty</item>
+        <item>oafish</item>
+        <item>obedient</item>
+        <item>obeisant</item>
+        <item>obese</item>
+        <item>obnoxious</item>
+        <item>obscene</item>
+        <item>obsequious</item>
+        <item>observant</item>
+        <item>obsolete</item>
+        <item>obtainable</item>
+        <item>oceanic</item>
+        <item>odd</item>
+        <item>offbeat</item>
+        <item>old</item>
+        <item>old-fashioned</item>
+        <item>omniscient</item>
+        <item>one</item>
+        <item>onerous</item>
+        <item>open</item>
+        <item>opposite</item>
+        <item>optimal</item>
+        <item>orange</item>
+        <item>ordinary</item>
+        <item>organic</item>
+        <item>ossified</item>
+        <item>outgoing</item>
+        <item>outrageous</item>
+        <item>outstanding</item>
+        <item>oval</item>
+        <item>overconfident</item>
+        <item>overjoyed</item>
+        <item>overrated</item>
+        <item>overt</item>
+        <item>overwrought</item>
+        <item>painful</item>
+        <item>painstaking</item>
+        <item>pale</item>
+        <item>paltry</item>
+        <item>panicky</item>
+        <item>panoramic</item>
+        <item>parallel</item>
+        <item>parched</item>
+        <item>parsimonious</item>
+        <item>past</item>
+        <item>pastoral</item>
+        <item>pathetic</item>
+        <item>peaceful</item>
+        <item>penitent</item>
+        <item>perfect</item>
+        <item>periodic</item>
+        <item>permissible</item>
+        <item>perpetual</item>
+        <item>petite</item>
+        <item>petite</item>
+        <item>phobic</item>
+        <item>physical</item>
+        <item>picayune</item>
+        <item>pink</item>
+        <item>piquant</item>
+        <item>placid</item>
+        <item>plain</item>
+        <item>plant</item>
+        <item>plastic</item>
+        <item>plausible</item>
+        <item>pleasant</item>
+        <item>plucky</item>
+        <item>pointless</item>
+        <item>poised</item>
+        <item>polite</item>
+        <item>political</item>
+        <item>poor</item>
+        <item>possessive</item>
+        <item>possible</item>
+        <item>powerful</item>
+        <item>precious</item>
+        <item>premium</item>
+        <item>present</item>
+        <item>pretty</item>
+        <item>previous</item>
+        <item>pricey</item>
+        <item>prickly</item>
+        <item>private</item>
+        <item>probable</item>
+        <item>productive</item>
+        <item>profuse</item>
+        <item>protective</item>
+        <item>proud</item>
+        <item>psychedelic</item>
+        <item>psychotic</item>
+        <item>public</item>
+        <item>puffy</item>
+        <item>pumped</item>
+        <item>puny</item>
+        <item>purple</item>
+        <item>purring</item>
+        <item>pushy</item>
+        <item>puzzled</item>
+        <item>puzzling</item>
+        <item>quack</item>
+        <item>quaint</item>
+        <item>quarrelsome</item>
+        <item>questionable</item>
+        <item>quick</item>
+        <item>quickest</item>
+        <item>quiet</item>
+        <item>quirky</item>
+        <item>quixotic</item>
+        <item>quizzical</item>
+        <item>rabid</item>
+        <item>racial</item>
+        <item>ragged</item>
+        <item>rainy</item>
+        <item>rambunctious</item>
+        <item>rampant</item>
+        <item>rapid</item>
+        <item>rare</item>
+        <item>raspy</item>
+        <item>ratty</item>
+        <item>ready</item>
+        <item>real</item>
+        <item>rebel</item>
+        <item>receptive</item>
+        <item>recondite</item>
+        <item>red</item>
+        <item>redundant</item>
+        <item>reflective</item>
+        <item>regular</item>
+        <item>relieved</item>
+        <item>remarkable</item>
+        <item>reminiscent</item>
+        <item>repulsive</item>
+        <item>resolute</item>
+        <item>resonant</item>
+        <item>responsible</item>
+        <item>rhetorical</item>
+        <item>rich</item>
+        <item>right</item>
+        <item>righteous</item>
+        <item>rightful</item>
+        <item>rigid</item>
+        <item>ripe</item>
+        <item>ritzy</item>
+        <item>roasted</item>
+        <item>robust</item>
+        <item>romantic</item>
+        <item>roomy</item>
+        <item>rotten</item>
+        <item>rough</item>
+        <item>round</item>
+        <item>royal</item>
+        <item>ruddy</item>
+        <item>rude</item>
+        <item>rural</item>
+        <item>rustic</item>
+        <item>ruthless</item>
+        <item>sable</item>
+        <item>sad</item>
+        <item>safe</item>
+        <item>salty</item>
+        <item>same</item>
+        <item>sassy</item>
+        <item>satisfying</item>
+        <item>savory</item>
+        <item>scandalous</item>
+        <item>scarce</item>
+        <item>scared</item>
+        <item>scary</item>
+        <item>scattered</item>
+        <item>scientific</item>
+        <item>scintillating</item>
+        <item>scrawny</item>
+        <item>screeching</item>
+        <item>second</item>
+        <item>second-hand</item>
+        <item>secret</item>
+        <item>secretive</item>
+        <item>sedate</item>
+        <item>seemly</item>
+        <item>selective</item>
+        <item>selfish</item>
+        <item>separate</item>
+        <item>serious</item>
+        <item>shaggy</item>
+        <item>shaky</item>
+        <item>shallow</item>
+        <item>sharp</item>
+        <item>shiny</item>
+        <item>shivering</item>
+        <item>shocking</item>
+        <item>short</item>
+        <item>shrill</item>
+        <item>shut</item>
+        <item>shy</item>
+        <item>sick</item>
+        <item>silent</item>
+        <item>silent</item>
+        <item>silky</item>
+        <item>silly</item>
+        <item>simple</item>
+        <item>simplistic</item>
+        <item>sincere</item>
+        <item>six</item>
+        <item>skillful</item>
+        <item>skinny</item>
+        <item>sleepy</item>
+        <item>slim</item>
+        <item>slimy</item>
+        <item>slippery</item>
+        <item>sloppy</item>
+        <item>slow</item>
+        <item>small</item>
+        <item>smart</item>
+        <item>smelly</item>
+        <item>smiling</item>
+        <item>smoggy</item>
+        <item>smooth</item>
+        <item>sneaky</item>
+        <item>snobbish</item>
+        <item>snotty</item>
+        <item>soft</item>
+        <item>soggy</item>
+        <item>solid</item>
+        <item>somber</item>
+        <item>sophisticated</item>
+        <item>sordid</item>
+        <item>sore</item>
+        <item>sore</item>
+        <item>sour</item>
+        <item>sparkling</item>
+        <item>special</item>
+        <item>spectacular</item>
+        <item>spicy</item>
+        <item>spiffy</item>
+        <item>spiky</item>
+        <item>spiritual</item>
+        <item>spiteful</item>
+        <item>splendid</item>
+        <item>spooky</item>
+        <item>spotless</item>
+        <item>spotted</item>
+        <item>spotty</item>
+        <item>spurious</item>
+        <item>squalid</item>
+        <item>square</item>
+        <item>squealing</item>
+        <item>squeamish</item>
+        <item>staking</item>
+        <item>stale</item>
+        <item>standing</item>
+        <item>statuesque</item>
+        <item>steadfast</item>
+        <item>steady</item>
+        <item>steep</item>
+        <item>stereotyped</item>
+        <item>sticky</item>
+        <item>stiff</item>
+        <item>stimulating</item>
+        <item>stingy</item>
+        <item>stormy</item>
+        <item>straight</item>
+        <item>strange</item>
+        <item>striped</item>
+        <item>strong</item>
+        <item>stupendous</item>
+        <item>stupid</item>
+        <item>sturdy</item>
+        <item>subdued</item>
+        <item>subsequent</item>
+        <item>substantial</item>
+        <item>successful</item>
+        <item>succinct</item>
+        <item>sudden</item>
+        <item>sulky</item>
+        <item>super</item>
+        <item>superb</item>
+        <item>superficial</item>
+        <item>supreme</item>
+        <item>swanky</item>
+        <item>sweet</item>
+        <item>sweltering</item>
+        <item>swift</item>
+        <item>symptomatic</item>
+        <item>synonymous</item>
+        <item>taboo</item>
+        <item>tacit</item>
+        <item>tacky</item>
+        <item>talented</item>
+        <item>tall</item>
+        <item>tame</item>
+        <item>tan</item>
+        <item>tangible</item>
+        <item>tangy</item>
+        <item>tart</item>
+        <item>tasteful</item>
+        <item>tasteless</item>
+        <item>tasty</item>
+        <item>tawdry</item>
+        <item>tearful</item>
+        <item>tedious</item>
+        <item>teeny</item>
+        <item>teeny-tiny</item>
+        <item>telling</item>
+        <item>temporary</item>
+        <item>ten</item>
+        <item>tender</item>
+        <item>tense</item>
+        <item>tense</item>
+        <item>tenuous</item>
+        <item>terrible</item>
+        <item>terrific</item>
+        <item>tested</item>
+        <item>testy</item>
+        <item>thankful</item>
+        <item>therapeutic</item>
+        <item>thick</item>
+        <item>thin</item>
+        <item>thinkable</item>
+        <item>third</item>
+        <item>thirsty</item>
+        <item>thirsty</item>
+        <item>thoughtful</item>
+        <item>thoughtless</item>
+        <item>threatening</item>
+        <item>three</item>
+        <item>thundering</item>
+        <item>tidy</item>
+        <item>tight</item>
+        <item>tightfisted</item>
+        <item>tiny</item>
+        <item>tired</item>
+        <item>tiresome</item>
+        <item>toothsome</item>
+        <item>torpid</item>
+        <item>tough</item>
+        <item>towering</item>
+        <item>tranquil</item>
+        <item>trashy</item>
+        <item>tremendous</item>
+        <item>tricky</item>
+        <item>trite</item>
+        <item>troubled</item>
+        <item>truculent</item>
+        <item>true</item>
+        <item>truthful</item>
+        <item>two</item>
+        <item>typical</item>
+        <item>ubiquitous</item>
+        <item>ugliest</item>
+        <item>ugly</item>
+        <item>ultra</item>
+        <item>unable</item>
+        <item>unaccountable</item>
+        <item>unadvised</item>
+        <item>unarmed</item>
+        <item>unbecoming</item>
+        <item>unbiased</item>
+        <item>uncovered</item>
+        <item>understood</item>
+        <item>undesirable</item>
+        <item>unequal</item>
+        <item>unequaled</item>
+        <item>uneven</item>
+        <item>unhealthy</item>
+        <item>uninterested</item>
+        <item>unique</item>
+        <item>unkempt</item>
+        <item>unknown</item>
+        <item>unnatural</item>
+        <item>unruly</item>
+        <item>unsightly</item>
+        <item>unsuitable</item>
+        <item>untidy</item>
+        <item>unused</item>
+        <item>unusual</item>
+        <item>unwieldy</item>
+        <item>unwritten</item>
+        <item>upbeat</item>
+        <item>uppity</item>
+        <item>upset</item>
+        <item>uptight</item>
+        <item>used</item>
+        <item>useful</item>
+        <item>useless</item>
+        <item>utopian</item>
+        <item>utter</item>
+        <item>uttermost</item>
+        <item>vacuous</item>
+        <item>vagabond</item>
+        <item>vague</item>
+        <item>valuable</item>
+        <item>various</item>
+        <item>vast</item>
+        <item>vengeful</item>
+        <item>venomous</item>
+        <item>verdant</item>
+        <item>versed</item>
+        <item>victorious</item>
+        <item>vigorous</item>
+        <item>violent</item>
+        <item>violet</item>
+        <item>vivacious</item>
+        <item>voiceless</item>
+        <item>volatile</item>
+        <item>voracious</item>
+        <item>vulgar</item>
+        <item>wacky</item>
+        <item>waggish</item>
+        <item>waiting</item>
+        <item>wakeful</item>
+        <item>wandering</item>
+        <item>wanting</item>
+        <item>warlike</item>
+        <item>warm</item>
+        <item>wary</item>
+        <item>wasteful</item>
+        <item>watery</item>
+        <item>weak</item>
+        <item>wealthy</item>
+        <item>weary</item>
+        <item>well-groomed</item>
+        <item>well-made</item>
+        <item>well-off</item>
+        <item>well-to-do</item>
+        <item>wet</item>
+        <item>whimsical</item>
+        <item>whispering</item>
+        <item>white</item>
+        <item>whole</item>
+        <item>wholesale</item>
+        <item>wicked</item>
+        <item>wide</item>
+        <item>wide-eyed</item>
+        <item>wiggly</item>
+        <item>wild</item>
+        <item>willing</item>
+        <item>windy</item>
+        <item>wiry</item>
+        <item>wise</item>
+        <item>wistful</item>
+        <item>witty</item>
+        <item>woebegone</item>
+        <item>womanly</item>
+        <item>wonderful</item>
+        <item>wooden</item>
+        <item>woozy</item>
+        <item>workable</item>
+        <item>worried</item>
+        <item>worthless</item>
+        <item>wrathful</item>
+        <item>wretched</item>
+        <item>wrong</item>
+        <item>wry</item>
+        <item>xenophobic</item>
+        <item>yellow</item>
+        <item>yielding</item>
+        <item>young</item>
+        <item>youthful</item>
+        <item>yummy</item>
+        <item>zany</item>
+        <item>zealous</item>
+        <item>zesty</item>
+        <item>zippy</item>
+        <item>zonked</item>
+    </string-array>
+
+</resources>
