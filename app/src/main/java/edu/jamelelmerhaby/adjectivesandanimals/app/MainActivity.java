@@ -1,5 +1,7 @@
 package edu.jamelelmerhaby.adjectivesandanimals.app;
 
+import android.app.ActionBar;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v4.app.Fragment;
@@ -19,6 +21,7 @@ import java.util.Random;
 
 
 public class MainActivity extends ActionBarActivity {
+    private MainFragment fragment = new MainFragment();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +29,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .add(R.id.container, new MainFragment())
+                    .add(R.id.container, fragment)
                     .commit();
         }
     }
@@ -46,19 +49,32 @@ public class MainActivity extends ActionBarActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_about) {
-            Toast aboutToast = Toast.makeText(this, "Created by: " + R.string.author, Toast.LENGTH_SHORT);
-            aboutToast.show();
-            return true;
+        switch (id) {
+            case R.id.action_about:
+                Toast aboutToast = Toast.makeText(this, "Created by: " + R.string.author, Toast.LENGTH_SHORT);
+                aboutToast.show();
+                break;
+            case R.id.menu_item_share:
+                String nameToShare = fragment.getGeneratedName();
+                if (nameToShare != null) {
+                    Intent shareIntent = new Intent();
+                    shareIntent.setAction(Intent.ACTION_SEND);
+                    shareIntent.putExtra(Intent.EXTRA_TEXT, nameToShare);
+                    shareIntent.setType("text/plain");
+                    startActivity(Intent.createChooser(shareIntent, "Pick a service"));
+                }
+                break;
+            case R.id.action_refresh:
+                fragment.refreshGeneratedName();
+                break;
         }
 
         return super.onOptionsItemSelected(item);
     }
 
     public static class MainFragment extends Fragment{
-        private Button genButton;
         private TextView name;
+        private String generatedName;
         private String[] adjectives;
         private String[] animals;
         private Random rand;
@@ -73,24 +89,14 @@ public class MainActivity extends ActionBarActivity {
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
             findViews(rootView);
             setArraysFromRes();
+            refreshGeneratedName();
             return rootView;
         }
 
         private void findViews(View rootView) {
-            genButton = (Button)rootView.findViewById(R.id.generateButton);
-            attachButtonListener();
             name = (TextView)rootView.findViewById(R.id.nameView);
         }
 
-        private void attachButtonListener() {
-            genButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    String generatedName = generateName();
-                    name.setText(generatedName);
-                }
-            });
-        }
 
         private void setArraysFromRes() {
             Resources res = getResources();
@@ -107,6 +113,15 @@ public class MainActivity extends ActionBarActivity {
             index = rand.nextInt(animals.length - 1);
             generatedName += animals[index];
             return generatedName.toLowerCase();
+        }
+
+        public String getGeneratedName() {
+            return generatedName;
+        }
+
+        public void refreshGeneratedName() {
+            generatedName = generateName();
+            name.setText(generatedName);
         }
     }
 }
